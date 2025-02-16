@@ -26,19 +26,5 @@ class BankAccount:
         return self.__balance
 
     def get_account_holder(self):
-        return self.__account_holder
- 
-try:
-    account = BankAccount("Ali", 500)
-    print(f"Account Holder: {account.get_account_holder()}")
-    print(f"Initial Balance: {account.get_balance()}")
-
-    account.deposit(200)
-    print(f"Balance after deposit: {account.get_balance()}")
-
-    account.withdraw(100)
-    print(f"Balance after withdrawal: {account.get_balance()}")
-
-    account.withdraw(700)  
-except Exception as e:
-    print(f"Error: {e}")
+        return self.__account_holder 
+    
