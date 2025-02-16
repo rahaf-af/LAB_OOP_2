@@ -8,4 +8,4 @@ print(account2.get_account_holder())
 account1.deposit(2000)
 account2.deposit(2000)
 
-print(account1).getba
+print(account1)
